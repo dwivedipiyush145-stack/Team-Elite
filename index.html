@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Crop Advisory System</title>
+  <link rel="stylesheet" href="style.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+  ...
+  <style>
+    body {
+      font-family: 'Bebas Neue', cursive;
+    }
+  </style>
+</head>
+
+</head>
+
+<body>
+  <div class="ui-background"></div>
+
+  
+  <div class="app">
+    
+  </div>
+  
+
+  >
+
+    
+
+
+  <!-- HEADER -->
+  
+    <header class="main-header" itemscope itemtype="https://schema.org/WebApplication">
+<div class="video-wrapper">
+    <video autoplay muted loop playsinline>
+        <source src="video1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+  <!-- Schema Info -->
+  <meta itemprop="name" content="Crop Advisory System">
+  <meta itemprop="applicationCategory" content="Agriculture Technology">
+  <meta itemprop="operatingSystem" content="Web">
+  <meta itemprop="description" content="Smart crop advisory system for farmers">
+
+  <!-- BRAND (LEFT) -->
+  <div class="brand">
+    <div class="logo"></div>
+    <span class="brand-name"></span>
+  </div>
+
+  <!-- CENTER TITLE -->
+  <div class="title-box" itemprop="headline">
+    CROP ADVISORY SYSTEM
+  </div>
+
+</header>
+
+
+
+  <!-- MAIN CONTAINER -->
+  <main class="container">
+
+    <!-- ROW 1 -->
+    <section class="row">
+
+      <!-- LOCATION BOX -->
+      <div class="card location-card">
+        <h2>📍 Location</h2>
+
+        <label>
+          Country
+          <select name="country" class="country">
+            <option value="">select country</option>
+            <option value="India">India</option>
+          </select>
+        </label>
+
+        <label>
+          State
+          
+          <select name="state" class="state-select">
+            <option value="">select state</option>
+            <option value="andaman and nicobar island">andaman and nicobar island</option>
+            <option value="andhra pradesh">andhra pradesh</option>
+            <option value="arunachal pradesh">arunachal pradesh</option>
+            <option value="assam">assam</option>
+            <option value="bihar">bihar</option>
+            <option value="chandigarh(UT)">chandigarh(UT)</option>
+            <option value="chhattisgarh">chhattisgarh</option>
+            <option value="Dadra and Nagar Haveli and Daman and Diu (UT)">Dadra and Nagar Haveli and Daman and Diu (UT)</option>
+            <option value="delhi(UT)">delhi(UT)</option>
+            <option value="goa">goa</option>
+            <option value="gujarat">gujarat</option>
+            <option value="harayana">harayana</option>
+            <option value="himachal pradesh">himachal pradesh</option>
+            <option value="jammu and kashmir(UT)">jammu and kashmir(UT)</option>
+            <option value="jharkhand">jharkhand</option>
+            <option value="karnataka">karnataka</option>
+            <option value="jharkhand">jharkhand</option>
+            <option value="kerala">kerala</option>
+            <option value="ladakh(UT)">ladakh(UT)</option>
+            <option value="Lakshadweep (UT)">Lakshadweep (UT)</option>
+            <option value="Madhya Pradesh">Madhya Pradesh</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Manipur">Manipur</option>
+            <option value="Meghalaya">Meghalaya</option>
+            <option value="Mizoram">mizoram</option>
+            <option value="Nagaland">Nagaland</option>
+            <option value="Odisha">Odisha</option>
+            <option value="Puducherry (UT)">Puducherry (UT)</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Sikkim">Sikkim</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Telangana">Telangana</option>
+            <option value="Tripura">Tripura</option>
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+            <option value="Uttarakhand">Uttarakhand</option>
+            <option value="West Bengal">West Bengal</option>
+            
+
+            
+          </select>
+        </label>
+
+        <label>
+          District
+          <input type="text" name="district" placeholder="Enter district">
+        </label>
+      </div>
+      
+
+      <!-- SOIL BOX -->
+      <div class="card soil-card">
+        <h2>🌱 Soil Type</h2>
+
+        <label>
+          Soil Category
+          <select name="soil">
+            <option value="">Select soil type</option>
+            <option value="clay">Clay</option>
+            <option value="sandy">Sandy</option>
+            <option value="loamy">Loamy</option>
+            <option value="silty">Silty</option>
+            <option vslue="alluvial">alluvial</option>
+          </select>
+        </label>
+      </div>
+
+    </section>
+
+    <!-- ROW 2 -->
+    <section class="row">
+
+      <!-- TEMPERATURE BOX -->
+      <div class="card climate-card">
+        <h2>🌡 Temperature</h2>
+
+        <label>
+          Average Temperature (°C)
+          <input type="number" name="temperature" placeholder="e.g. 28 degree celcius">
+        </label>
+      </div>
+
+      <!-- RAINFALL BOX -->
+      <div class="card climate-card">
+        <h2>🌧 Rainfall</h2>
+
+        <label>
+          Rainfall (mm)
+          <input type="number" name="rainfall" placeholder="e.g. 120mm">
+        </label>
+      </div>
+
+    </section>
+
+    <!-- ROW 3 -->
+    <section class="row">
+
+      <!-- CROP BOX -->
+      <div class="card crop-card">
+        <h2>🌾 Crop</h2>
+
+        <label>
+          Crop Name
+          <input type="text" name="crop" placeholder="e.g. Wheat, Rice">
+         
+        </label>
+      </div>
+
+      <!-- SEASON BOX -->
+      <div class="card season-card">
+        <h2>🗓 Season</h2>
+
+        <label>
+          Select Season
+          <select name="season">
+            <option value="">Select season</option>
+            <option value="kharif">Kharif</option>
+            <option value="rabi">Rabi</option>
+            <option value="zaid">Zaid</option>
+          </select>
+        </label>
+      </div>
+
+    </section>
+
+    <!-- ACTION -->
+    <section class="action">
+      <button type="button">
+        Generate Advisory
+      </button>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Climate Tech | Smart Agriculture Advisory</p>
+  </footer>
+  <script src="script.js"></script>
+
+
+</body>
+</html>
